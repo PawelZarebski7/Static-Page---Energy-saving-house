@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #97B735;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+nav ul li button {
+    padding: 5px;
+    color: #97B735;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Baloo Da 2', cursive;
+}
+
+#banner {
+    width: 100%;
+}
+
+#pictures {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+}
+
+article {
+    margin-top: -14px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    background-color: #54504f;
+    color: white;
+    font-family: 'Baloo Da 2', cursive;
+    font-weight: 100;
+}
+
+article h2 {
+    color: #97B735;
+    margin-bottom: 10px;
+}
+
+.column {
+    padding: 30px;
+}
+
+#author {
+    margin-top: 100px;
+    background-image: url(./assets/avatar.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100px;
+    padding-left: 110px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    background-color: #97B735;
+    color: white;
+    font-family: 'Baloo Da 2', cursive;
+    padding: 5px 100px 30px 100px;
+}
+
+footer div {
+    padding: 10px;
+    margin: 10px 0 0 0;
+}
+
+footer h4 {
+    font-size: 15px;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: 10px;
+}
+
+footer h4 i {
+    font-size: 25px;
+    
+}
